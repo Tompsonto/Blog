@@ -1,0 +1,20 @@
+query Article($id: ID!) {
+  article(id: $id) {
+    id
+    date
+    Title
+    content 
+    thumbnail{
+        url
+    }
+    users_permissions_user{
+      id
+        name
+        surname 
+        avatar{
+            url
+        }
+        short_bio
+    }
+  }
+}
