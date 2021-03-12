@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'blog',
+    title: 'frontend',
     htmlAttrs: {
       lang: 'en'
     },
@@ -34,10 +34,11 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
   ],
+
   apollo: {
     clientConfigs: {
       default: {
-        httpEndpoint: 'https://blog-strapi-11.herokuapp.com/graphql'
+        httpEndpoint: 'http://localhost:1337/graphql'
       }
     }
   },

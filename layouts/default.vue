@@ -1,11 +1,8 @@
 <template>
   <div>
     <Header/>
-    <Nuxt />
+    <Nuxt class="min-h-screen" />
     <Footer/>
   </div>
 </template>
 
-<style>
-
-</style>

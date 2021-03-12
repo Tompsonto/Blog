@@ -1,0 +1,10 @@
+query Hero {
+hero{
+	title
+  short 
+  background{
+    url
+  }
+}
+  
+}

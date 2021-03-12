@@ -1,4 +1,4 @@
-# blog-jamstack
+# frontend
 
 ## Build Setup
 

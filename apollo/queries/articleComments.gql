@@ -1,0 +1,9 @@
+query ArticleComments($id: ID!) {
+  article(id: $id) {
+    comments{
+      id
+      nick
+      content
+    }
+  }
+}

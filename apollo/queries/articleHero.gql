@@ -1,0 +1,13 @@
+query ArticleHero($id: ID!) {
+  article(id: $id) {
+    id
+    date
+    Title
+    content 
+    thumbnail{
+        url
+    }
+
+
+  }
+}

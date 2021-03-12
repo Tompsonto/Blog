@@ -9,12 +9,21 @@ query Article($id: ID!) {
     }
     users_permissions_user{
       id
-        name
-        surname 
-        avatar{
-            url
-        }
-        short_bio
+      name
+      surname 
+      avatar{
+        url
+      }
+      short_bio
+    } 
+    categories{
+      id
+      title
+    }
+        comments{
+      id
+      nick
+      content
     }
   }
 }

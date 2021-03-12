@@ -1,12 +1,15 @@
 query articles {
 articles
   {
-    
     id
     Title
     content
     thumbnail{
       url
+    }
+    categories{
+      id
+      title
     }
   }
   
